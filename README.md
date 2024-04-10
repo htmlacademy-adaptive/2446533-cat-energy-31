@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Влад Мальков](https://up.htmlacademy.ru/adaptive/31/user/2446533).
-* Наставник: `Окскана Вайнруб (https://htmlacademy.ru/profile/id166797)`.
+* Наставник: `Оксана Вайнруб (https://htmlacademy.ru/profile/id166797)`.
 
 ---
 
