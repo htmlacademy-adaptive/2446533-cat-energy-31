@@ -4,6 +4,13 @@
 }
 
 .additional-item__title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #222222;
+  text-transform: uppercase;
+}
 
 }
 
@@ -16,7 +23,19 @@
 }
 
 .additional-item__text {
+  font-size: 14px;
+  line-height: 14px;
+}
 
+.additional-item__link {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: $bg-basic-green;
+  text-decoration: none;
 }
 
 .additional-item__link {
