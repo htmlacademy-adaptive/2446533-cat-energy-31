@@ -17,9 +17,14 @@
 }
 
 .main-header__logo-image {
-
+  &:hover {
+    opacity: 0.8;
+  }
 }
 
 .main-header__link-text-image {
-
+  &:hover {
+    opacity: 0.8;
+  }
 }
+
