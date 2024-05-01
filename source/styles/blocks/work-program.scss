@@ -17,4 +17,69 @@
 }
 
 .work-program__list {
+
+}
+
+.work-program__leaf-image {
+
+}
+
+.work-program__leaf-image::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-color: #68b738;
+  background-image: url("../../icons/stack.svg#icon-leaf-1");
+  background-size: 30px 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.work-program__bath-image {
+
+}
+
+.work-program__bath-image::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-color: #68b738;
+  background-image: url("../../icons/stack.svg#icon-bath-2");
+  background-size: 28px 28px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.work-program__eat-image {
+
+}
+
+.work-program__eat-image::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-color: #68b738;
+  background-image: url("../../icons/stack.svg#icon-eat-3");
+  background-size: 28px 28px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.work-program__alarm-image {
+
+}
+
+.work-program__alarm-image::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-color: #68b738;
+  background-image: url("../../icons/stack.svg#icon-clock-4");
+  background-size: 26px 31px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
