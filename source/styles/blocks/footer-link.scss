@@ -6,3 +6,11 @@
 .footer-link__image {
 
 }
+
+.footer-link__image:hover {
+  fill: #3e3e3e;
+}
+
+.footer-link__image:active {
+  fill: #6b6b6b;
+}

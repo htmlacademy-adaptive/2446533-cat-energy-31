@@ -5,15 +5,23 @@
 
 .copyright__link {
   text-decoration: none;
+}
+
+.copyright__link-logo {
+  object-fit: cover;
+}
+
+.copyright__link-logo:hover {
+  fill: #68b738;
+  stroke: #68b738;
+}
+
+.copyright__link-text {
   font-size: 16px;
   line-height: 20px;
   color: #444444;
 }
 
-.copyright__link-logo {
-
-}
-
-.copyright__link-logo:hover {
-  fill: #68b738;
+.copyright__link-text:hover {
+  opacity: 30%;
 }
