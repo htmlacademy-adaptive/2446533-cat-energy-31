@@ -1,6 +1,18 @@
 /* stylelint-disable block-no-empty */
 .hero {
-  background-color: #808080;
+  background-color: #68b738;
+  position: relative;
+}
+
+.hero::after {
+  background-image: image-set(url("../../images/hero-background-cat@1x.png") 1x type("image/png"));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 320px 302px;
+  opacity: 0.5;
+  inset: 0;
+  content: "";
+  position: absolute;
 }
 
 .hero__wrapper {

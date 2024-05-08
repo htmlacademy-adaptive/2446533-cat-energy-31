@@ -7,10 +7,18 @@
 
 }
 
+@media (min-width: $tablet-width) {
+  .main-nav__toggle {
+    display: none;
+  }
+}
+
 .main-nav__wrapper {
 
 }
 
 .main-nav__list {
-
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
