@@ -3,19 +3,43 @@
 
 }
 
-.example-calculator__information {
-
+.example-calculator__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
 
-.example-calculator__information-description {
+.example-calculator__item {
+  width: 124px;
+  border: 1px solid #cdcdcd;
+  border-radius: 3px;
+  position: relative;
+}
+
+.example-calculator__description {
   font-size: 12px;
   line-height: 12px;
+  font-family: "Lato", sans-serif;
+  color: #444444;
+  margin: 0;
+  text-align: center;
+  padding: 0 10px;
+  max-width: 80px;
+  background-color: #eaeaea;
+  position: absolute;
+  left: 20px;
+  top: 44px;
 }
 
-.example-calculator__information-field {
+.example-calculator__title {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
   color: #000000;
+  margin: 0;
+  text-align: center;
+  padding: 14px 20px;
 }

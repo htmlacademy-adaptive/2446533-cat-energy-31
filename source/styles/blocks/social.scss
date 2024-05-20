@@ -5,7 +5,12 @@
 }
 
 .social__list {
-
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  gap: 24px;
 }
 
 .social__item {

@@ -1,22 +1,27 @@
 /* stylelint-disable block-no-empty */
 .hero {
-  background-color: #68b738;
-  position: relative;
-}
-
-.hero::after {
-  background-image: image-set(url("../../images/hero-background-cat@1x.png") 1x type("image/png"));
+  background-image: linear-gradient(#68b738d9 302px, #ffffff 302px), url("../../images/hero-background-cat@1x.png");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 320px 302px;
-  opacity: 0.5;
-  inset: 0;
-  content: "";
-  position: absolute;
+  background-size: contain;
+  background-position: top;
+
+  @media (min-width: $tablet-width) {
+    background-image: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image: linear-gradient(90deg, #ffffff 50%, #68b738d9 50%), url("../../images/hero-background-cat@1x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 694px;
+    background-position: 50%, right 0 top 0;
+  }
 }
 
 .hero__wrapper {
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero__title {
@@ -24,6 +29,9 @@
   font-size: 36px;
   line-height: 36px;
   color: #ffffff;
+  margin: 0;
+  text-align: center;
+  padding-top: 27px;
 }
 
 .hero__paragraph {
@@ -33,14 +41,19 @@
   line-height: 16px;
   color: #ffffff;
   text-transform: uppercase;
+  margin: 0;
+  text-align: center;
+  padding-top: 25px;
 }
 
 .hero__picture {
-
+  padding-top: 29px;
 }
 
 .hero__link {
   text-decoration: none;
+  background-color: #68b738;
+  padding: 10px 64px;
 }
 
 .hero__link-text {
@@ -49,4 +62,5 @@
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+  text-transform: uppercase;
 }

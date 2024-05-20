@@ -1,6 +1,12 @@
 /* stylelint-disable block-no-empty */
 .catalog-item {
-
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 20px 20px 25px;
+  border-top: 1px solid #ebebeb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .catalog-item__image {
@@ -14,6 +20,60 @@
   line-height: 20px;
   color: #222222;
   text-transform: uppercase;
+  margin: 0;
+  max-width: 76px;
+  margin-bottom: 14px;
+}
+
+.catalog-item__description-weight {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog-item__description-weight-name {
+  margin: 0;
+}
+
+.catalog-item__description-weight-weight {
+  margin: 0;
+}
+
+.catalog-item__description-taste {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog-item__description-taste-name {
+  margin: 0;
+}
+
+.catalog-item__description-taste-view {
+  margin: 0;
+}
+
+.catalog-item__description-price {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog-item__description-price-name {
+  margin: 0;
+}
+
+.catalog-item__description-price-price {
+  margin: 0;
 }
 
 .catalog-item__link {
@@ -25,4 +85,24 @@
   text-transform: uppercase;
   background-color: $bg-basic-green;
   text-decoration: none;
+  text-align: center;
+  padding: 10px 0;
+  width: 320px;
+}
+
+.catalog-item__block {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 17px;
+}
+
+.catalog-item__image-block {
+  display: flex;
+  width: 140px;
+  justify-content: center;
+  align-items: center;
+}
+
+.catalog-item__description-block {
+  width: 140px;
 }

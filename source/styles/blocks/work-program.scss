@@ -5,7 +5,9 @@
 }
 
 .work-program__wrapper {
-
+  max-width: 280px;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 .work-program__title {
@@ -14,10 +16,17 @@
   font-size: 36px;
   line-height: 40px;
   color: #000000;
+  margin: 0;
 }
 
 .work-program__list {
-
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .work-program__leaf-image {

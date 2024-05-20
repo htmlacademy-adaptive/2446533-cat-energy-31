@@ -8,16 +8,25 @@
 
 }
 
+.cooperation__description {
+  width: 280px;
+  margin: 0 auto;
+  display: flex;
+  padding: 26px 0;
+}
+
 .cooperation__title {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 20px;
   color: #111111;
   text-transform: uppercase;
+  margin: 0;
 }
 
-.cooperation__description {
+.cooperation__description-text {
   font-size: 14px;
   line-height: 20px;
+  margin: 0;
 }

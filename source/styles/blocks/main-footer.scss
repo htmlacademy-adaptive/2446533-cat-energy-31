@@ -8,13 +8,19 @@
 }
 
 .main-footer__link {
-
+  display: flex;
+  justify-content: center;
+  padding: 40px 0 20px;
 }
 
 .main-footer__social {
-
+  padding: 20px 0;
 }
 
 .main-footer__copyright {
-
+  display: flex;
+  max-width: 280px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 20px 0 40px;
 }
