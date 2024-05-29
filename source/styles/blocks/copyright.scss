@@ -1,0 +1,34 @@
+/* stylelint-disable block-no-empty */
+.copyright {
+
+}
+
+.copyright__link {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  color: #444444;
+}
+
+.copyright__link:active {
+  opacity: 40%;
+}
+
+.copyright__link-logo {
+  mask-image: url("../../icons/stack.svg#logo-academy");
+  mask-size: 27px 34px;
+  mask-repeat: no-repeat;
+  background-color: #444444;
+  display: block;
+  width: 27px;
+  height: 34px;
+
+  &:hover {
+    background-color: $bg-basic-green;
+  }
+
+  &:active {
+    background-color: $bg-basic-green;
+    opacity: 30%;
+  }
+}

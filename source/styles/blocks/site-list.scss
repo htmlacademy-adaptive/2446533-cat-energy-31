@@ -1,0 +1,37 @@
+/* stylelint-disable block-no-empty */
+
+.site-list{
+
+}
+
+.site-list__item {
+  padding: 22px 0 24px;
+  border-top: 1px solid #e6e6e6;
+  min-width: 320px;
+  display: flex;
+  justify-content: center;
+
+  @media (min-width: $tablet-width) {
+    min-width: none;
+  }
+}
+
+.site-list__item--current {
+
+}
+
+.site-list__item-link {
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+  text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+

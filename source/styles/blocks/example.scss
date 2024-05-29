@@ -1,0 +1,27 @@
+/* stylelint-disable block-no-empty */
+.example {
+
+}
+
+.example__wrapper {
+  background-color: #eaeaea;
+  margin-top: 49px;
+  padding: 25px 20px 40px;
+}
+
+.example__title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: #000000;
+  margin: 0;
+}
+
+.example__paragraph {
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
