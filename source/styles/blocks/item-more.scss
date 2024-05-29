@@ -1,6 +1,6 @@
 /* stylelint-disable block-no-empty */
 .item-more {
-
+  border-bottom: 1px solid #ebebeb;
 }
 
 .item-more__image {
@@ -14,11 +14,39 @@
   line-height: 20px;
   color: #111111;
   text-transform: uppercase;
+  margin: 0;
+  padding-top: 53px;
+  position: relative;
+
+  &::before {
+    content: "";
+    display: block;
+    background-color: #d3d3d3;
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    left: 85px;
+    top: 20px;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    background-color: #d3d3d3;
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    left: 85px;
+    top: 20px;
+    transform: rotate(90deg);
+  }
 }
 
 .item-more__description {
   font-size: 12px;
   line-height: 16px;
+  margin: 0;
+  margin-top: 8px;
 }
 
 .item-more__link {
@@ -30,4 +58,8 @@
   text-transform: uppercase;
   text-decoration: none;
   background-color: #f2f2f2;
+  margin-top: 17px;
+  padding: 10px 95px;
+  max-width: 280px;
+  text-align: center;
 }

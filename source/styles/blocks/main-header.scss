@@ -7,10 +7,11 @@
   @media (min-width: $tablet-width) {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 704px;
-    margin: 0 auto;
+    max-width: 704px;
     align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 25px;
   }
 
   @media (min-width: $desktop-width) {
@@ -29,15 +30,26 @@
   @media (min-width: $tablet-width) {
     display: flex;
     align-items: center;
+    padding: 0;
+    min-width: 174px;
+    justify-content: space-between;
   }
 }
 
 .main-header__logo {
-
+  @media (min-width: $tablet-width) {
+    width: 60px;
+    height: 50px;
+  }
 }
+
 
 .main-header__link-text {
   margin-left: 56px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+  }
 }
 
 .main-header__logo-image {

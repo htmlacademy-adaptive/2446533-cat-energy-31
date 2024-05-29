@@ -1,10 +1,10 @@
 /* stylelint-disable block-no-empty */
 .additional-products {
-
+  margin: 0 auto;
 }
 
 .additional-products__wrapper {
-
+  margin: 0 auto;
 }
 
 .additional-products__title {
@@ -13,19 +13,54 @@
   font-size: 24px;
   line-height: 24px;
   color: #000000;
-  text-transform: uppercase;
+  margin: 0 auto;
+  margin-bottom: 36px;
+  display: flex;
+  max-width: 280px;
+  position: relative;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 34px;
+    height: 2px;
+    background-color: #68b738;
+    position: absolute;
+    top: 8px;
+    left: 266px;
+  }
 }
 
 .additional-products__list {
-
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-bottom: 54px;
 }
 
 .additional-products__promo {
-  background-color: #808080;
+  display: flex;
+  justify-content: center;
+  max-width: 280px;
+  margin: 0 auto;
+  background-image:
+    image-set(
+      url("../../images/gift-background@1x.png") 1x type("image/png"));
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .additional-products__text {
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+  margin: 0;
+  padding-top: 186px;
+  padding-bottom: 43px;
+  width: 161px;
+  text-align: center;
+  background-image: url("../../icons/icon_gift.svg");
+  background-repeat: no-repeat;
+  background-size: 60px 70px;
+  background-position: 50px 60px;
 }
